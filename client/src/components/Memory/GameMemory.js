@@ -120,6 +120,7 @@ export default class GameMemory extends React.Component {
 
     function restart() {
       game.paused = false;
+      game.time.events.removeAll();
       if (blocks) {
         for (var i = 0; i < blocks.children.length; i++) {
           blocks.children[i].destroy();
