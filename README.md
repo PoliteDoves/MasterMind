@@ -1,38 +1,49 @@
-Mega-Mind
-An online game library for adult memory games.
+# Megamind
 
-Team
-Product Owner: Maxwell DeMers
-Scrum Master: Andrew Slagle
-Development Team Members: Cory Wolnewitz, Renata Maraj, Jimmie Gisclair
-Table of Contents
+> An online gaming library for adult memory games.
 
-Usage
-Use this web pp to track analytics and scores for memory games. 
+## Team
 
-Development
+  - __Product Owner__: Maxwell DeMers
+  - __Scrum Master__: Andrew Slagle
+  - __Development Team Members__: Cory Wolnewitz, Renata Maraj, Jimmie Gisclair
 
-Installing Dependencies
+## Table of Contents
 
-Tasks
+1. [Usage](#Usage)
+1. [Development](#development)
+    1. [Installing Dependencies](#installing-dependencies)
+    1. [Tasks](#tasks)
+1. [Team](#team)
+1. [Contributing](#contributing)
 
-Team
+## Usage
 
-Contributing
+>From within the root directory:
+  ```sh
+  node server/server.js
+  ```
+This will get the server running on your local machine.
+
+In a separte terminal window, run: 
+  ```sh
+  webpack
+  ```
+This will start the build process, and create the bundle.js file.
+
+## Development
+
+
+### Installing Dependencies
 
 From within the root directory:
 
-  run node server/server.js to run the server.
-  In another terminal window, run 'webpack' to start the build process and create the bundle.js folder.
-  
-Development
-
-Installing Dependencies
-run npm install to install all dependencies for this project.
-
-From within the root directory:
-
+```sh
 npm install
-Contributing
+```
+This will install all the required dependencies for the app to work.
 
-See CONTRIBUTING.md for contribution guidelines.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
